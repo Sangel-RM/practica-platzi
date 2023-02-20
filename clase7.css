@@ -1,0 +1,53 @@
+:root{
+    --balck:#000000;
+    --white:#ffffff;
+    --very-ligth-pink:#c7c7c7;
+    --text-input-field:#f7f7f7;
+    --dark:#232830;
+    --hospital-green:#acd9b2;
+    --sm:14px;
+    --md:16px;
+    --lg:18px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Quicksand';
+}
+.desktop-menu{
+    width: 110px;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 20px 20px 0px 20px;
+}
+.desktop-menu ul{
+    list-style: none;
+}
+.desktop-menu ul li{
+    text-align: end;
+}
+.desktop-menu ul li:nth-child(1) a,
+.desktop-menu ul li:nth-child(2) a{
+    color: var(--balck);
+}
+.desktop-menu ul li:last-child{
+    border-top: 1px solid var(--very-ligth-pink);
+    padding:10px 0 10px 0;
+}
+.desktop-menu ul li:last-child a{
+    color: var(--hospital-green);
+}
+.desktop-menu ul li:last-child a:hover{
+    color: #ba013999;
+}
+.desktop-menu ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}

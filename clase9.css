@@ -1,0 +1,94 @@
+:root{
+    --balck:#000000;
+    --white:#ffffff;
+    --very-ligth-pink:#c7c7c7;
+    --text-input-field:#f7f7f7;
+    --dark:#232830;
+    --hospital-green:#acd9b2;
+    --sm:14px;
+    --md:16px;
+    --lg:18px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Quicksand';
+}
+.my-order{
+    width: 100%;
+    height: 100%;
+}
+.my-order-container{
+    display: grid;
+    grid-template-rows:auto 1fr auto;
+    width: 300px;
+    margin: 0 auto;
+}
+.my-order-container .fecha-y-cuenta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 20px 0;
+    border-radius: 15px;
+    background-color: var(--text-input-field);
+}
+.my-order-container .fecha-y-cuenta p{
+    margin: 0 20px;
+}
+.my-order-container .fecha-y-cuenta span:nth-child(1){
+    font-weight: bold;
+}
+.my-order-container .fecha-y-cuenta span:nth-child(2){
+    color: var(--very-ligth-pink);
+    font-size: var(--sm);
+}
+.my-order-container .fecha-y-cuenta p:nth-child(2){
+    font-weight: bold;
+}
+.my-order-container .fecha-y-cuenta p:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+.my-order-container .my-order-content figure{
+    width: 95px;
+    height: 70px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.my-order-container .my-order-content{
+    margin: 15px 0;
+}
+.my-order-container .my-order-content figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.my-order-container .my-order-content div:nth-child(2){
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.my-order-container .my-order-content .shopping-cart{
+    display: flex;
+}
+.my-order-container .my-order-content .shopping-cart div p:nth-child(1){
+    color: var(--very-ligth-pink);
+}
+.my-order-container .my-order-content .shopping-cart div p:nth-child(2){
+    font-weight: bold;
+}
+.title{
+    font-size: var(--lg);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

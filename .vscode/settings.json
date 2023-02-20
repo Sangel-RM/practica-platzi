@@ -1,0 +1,12 @@
+{
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "workbench.colorTheme": "XhiTheme Color",
+    "workbench.preferredDarkColorTheme": "XhiTheme Color",
+    "workbench.preferredLightColorTheme": "Abyss",
+    "window.autoDetectColorScheme": true,
+    "terminal.integrated.tabs.defaultColor": null,
+    "indentRainbow.colorOnWhiteSpaceOnly": true,
+    "workbench.preferredHighContrastLightColorTheme": "Monokai Dimmed",
+    "polacode.backgroundColor": "#f2f2f2",
+    "workbench.preferredHighContrastColorTheme": "Default High Contrast Light"
+}

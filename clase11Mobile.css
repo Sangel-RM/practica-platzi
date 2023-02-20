@@ -1,0 +1,64 @@
+:root{
+    --balck:#000000;
+    --white:#ffffff;
+    --very-ligth-pink:#c7c7c7;
+    --text-input-field:#f7f7f7;
+    --dark:#232830;
+    --hospital-green:#acd9b2;
+    --sm:14px;
+    --md:16px;
+    --lg:18px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Quicksand';
+}
+header{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+header .nav-bar{
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header .nav-bar .logo-intro{
+    display: flex;
+    justify-content: center;
+}
+header .nav-bar .logo-intro .logo{
+    width: 100%;
+}
+header .nav-bar i.fa-bars{
+    font-size: 20px;
+}
+header .nav-bar i.fa-user{
+    font-size: 20px;
+}
+header .nav-bar .nav-bar-right{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header .raya{
+    width: 100%;
+    background-color: var(--text-input-field);
+    height: 3px;
+}
+@media (max-width:599px) {
+    header .nav-bar .logo-intro .logo{
+        width: 100px;
+    }
+    .nav-bar-left, .nav-bar-right li:nth-child(1){
+        display: none;
+    }
+}
